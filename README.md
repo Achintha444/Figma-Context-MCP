@@ -1,3 +1,19 @@
+# Authorization-Enabled Figma MCP Server
+
+To enable authorization for the Figma MCP Server, I’ve used **Asgardeo** as the external authorization server. You can read more about how I implemented this [here](https://www.framelink.ai/blog/figma-mcp-server-with-authorization/).
+
+## For Testing
+
+Copy the content from the `.env.example` file into a new `.env` file and update the values with your own configuration. Then, run:
+
+```bash
+pnpm run dev
+```
+
+to start the server.
+
+The rest follows the official **Framelink Figma MCP Server** documentation 👇🏻
+
 <a href="https://www.framelink.ai/?utm_source=github&utm_medium=referral&utm_campaign=readme" target="_blank" rel="noopener">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://www.framelink.ai/github/HeaderDark.png" />
